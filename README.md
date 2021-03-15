@@ -22,6 +22,6 @@ Use the links to access the LinkedIn and GiyHub profiles, and the article
 
 ![image](https://user-images.githubusercontent.com/44534982/111096858-dab4f880-8516-11eb-892c-fdfa69db6876.png)
 
-You can access to this webpage using this link:  https://marlysco.github.io/Profesional-Portfolio/
+You can access to this webpage using this link:  https://marlysco.github.io/Professional-Portfolio/
 
 Feel free to test the link and share feedback.
