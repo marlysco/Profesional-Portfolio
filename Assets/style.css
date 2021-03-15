@@ -68,7 +68,7 @@ li {
     height: 125px;
     width: 100%;
     margin-top: 0px;
-    background-image: url("../Assets/nav-cover.jpg");
+    background-image: url("../Images/nav-cover.jpg");
 }
 
 
@@ -108,15 +108,15 @@ section {
 
 
 #app-bar {
-    margin-top: 20%;
+    margin-top: 65px;
 }
 
 #article-bar {
-    margin-top: 745px;
+    margin-top: 235%;
 }
 
 #certifications-bar {
-    margin-top: 19%;
+    margin-top: 17%;
     padding-right: 20px;
 }
 
@@ -145,6 +145,8 @@ section {
     font-weight: bold; 
     font-size: 17px;
  }
+
+ /*Work Gallery and Content design*/
 
  .work {
      /* Flex container*/
@@ -228,7 +230,7 @@ article a:hover {
     /* Flex container*/
     display: flex;
     flex-wrap: wrap;
-    margin-top: -2%; 
+    margin-top: -1%; 
     margin-left: 10px;
 }
 
