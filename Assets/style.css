@@ -14,17 +14,16 @@
 
 /*Main section design*/
 
-
-
 .header-container {
-    display: flex;
+    /* Flex container*/
+    display: flex; 
+    flex-wrap: wrap;
     background-color: var(--background);
     height:auto;
     justify-content:space-between;
     align-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 
 .header {
@@ -40,11 +39,11 @@ nav h1 {
 }
 
 ul {
+    /* Flex container*/
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     padding-right: 30px;
-    
 }
 
 li {
@@ -52,93 +51,122 @@ li {
     padding: 10px;
 }
 
+
  a {
     color: var(--main-font-color);
- }
+}
+
 
  nav a:hover {
     color: white;
- }
+}
+
 
  .cover {
+     /* Flex container*/
+    display: flex;
+    flex-wrap: wrap;
     height: 125px;
     width: 100%;
     margin-top: 0px;
     background-image: url("../Assets/nav-cover.jpg");
- 
-    
- }
+}
 
 
 /*Article design*/
 
 /*Left side bar*/
 
-article{
+article {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-
 section {
+      /* Flex container*/
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
     align-content: center;
     width: 40%;
     
 }
 
 .left-bar {
+  /* Flex container*/
+  display: flex;
+  flex-wrap: wrap;
   border-right: goldenrod 8px solid;
   margin-top: 35px;
   margin-left: 50px;
-  padding-top: 15px;
-  text-align: right;
-  padding-right: 10px;
+  padding-top: 12px;
+  padding-left: 100px;
+  text-align: end;
   width: 80%;
   height: 60px;
 }
+
 
 #app-bar {
     margin-top: 20%;
 }
 
 #article-bar {
-    margin-top: 740px;
+    margin-top: 745px;
+}
+
+#certifications-bar {
+    margin-top: 19%;
+    padding-right: 20px;
+}
+
+#contact-bar {
+    margin-top: 22%;
 }
 
 /*Main content design*/
 
 .main-container {
+        /* Flex container*/
         display: flex;
+        flex-wrap: wrap;
         flex-direction:column;
-        align-items: left;
-        flex-wrap: wrap;           
+        align-items: left;          
 }
 
 .about-me {
+    /* Flex container*/
+    display: flex;
+    flex-wrap: wrap;
     align-self: flex-start;
     margin-top: 30px;
     margin-left: 10px;
     margin-bottom: 68px;
     font-weight: bold; 
     font-size: 17px;
-    display: flex;
-    flex-wrap: wrap;
  }
 
  .work {
-    display: inline-flex;
+     /* Flex container*/
+    display: flex;
     flex-wrap: wrap;
+    display: inline-flex;
     justify-content:left;
     align-content: flex-start;
-    margin-top: -55px;
+    margin-top: -32px;
      
  }
 
+ .work-img-othes{
+     margin-right: 25px;
+
+ }
+
  main h1 {
+     /* Flex container*/
+     display: flex;
+     flex-wrap: wrap;
      border: goldenrod 5px solid;
      background-color: var(--main-font-color);
      margin-bottom: 0px;
@@ -157,64 +185,86 @@ section {
  img:hover {
      mix-blend-mode: luminosity;
      border: 10px goldenrod solid;
-    
-}
+    }
+
+    /*Article content*/
 
 .article-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; 
-    margin-top: 5%;
-    align-self: flex-start;
-    
-}
-
-.ul-article {
+    /* Flex container*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 0pt;
-    width: 100%;
+    margin-top: 3.5%;
+    padding: 10px;
+    height: 25vh; 
+  }
+
+.ul-article {
+    /* Flex container*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+
+h6 {
+    /* Flex container*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 12px;
  }
 
- h6 {
-     padding: 0px;
-     margin-top: -25px;
- }
-
-article li {
-     padding: 0px;
- }
-
+article main li {
+     margin-top: -13px;    
+}
+ 
 article a:hover {
     color: black;
 }
 
-.contact {
-   display: flex;
-   flex-wrap: wrap;
-   box-sizing: border-box;
-   width: 50%;
-   align-self: flex-start;
-   margin-top: 9.5%; 
-   margin-left: 10px;
-}
+
+/*Certifications content*/
 
 .certification {
+    /* Flex container*/
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5%; 
+    margin-top: -2%; 
     margin-left: 10px;
 }
 
-.li-certification{
+.li-certification {
     margin: 10px;
 }
 
-footer {
+/*Contact content*/
+
+   .contact {
+    /* Flex container*/
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
+    align-self: flex-start;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 5%;
+ }
+
+
+ /*Footer content*/
+
+footer {
+    margin-top: 80px;
+    background-color: var(--background);
+    color: var(--main-font-color);
     text-align: center;
+    height: 50px;   
+    padding-top: 20px;
 }
 
+@media screen and (width: 724px) {
+    .cover {
+       height: 45px;
+       margin-top: 0px;
+       background-image: url("../Assets/nav-cover.jpg");
+   }  
+}
