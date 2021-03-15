@@ -1,0 +1,59 @@
+
+
+.flex-container {
+    display: flex;
+    width: 100%; 
+    height: 10%; 
+    }
+
+.name-container {
+    border: black solid 1px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-flex;
+    float:right;
+}
+
+.header {
+    border: orangered solid 5px;
+    flex-direction: column; 
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    width: 30%;
+}
+
+nav h1 {
+    font-size: 35px;
+    margin-bottom: -13px;
+    margin-top: 5px;
+    border: orangered solid 1px;
+}
+
+.img-marlys {
+    border-radius: 100%;
+    position: relative;
+    left: 80%;
+    top: -200px;
+    width: 12%;
+    height: auto;
+    flex-direction: row;
+
+
+
+
+
+    .cover {
+        height: 25vh;
+        width: 100%;
+        margin-top: 0px;
+        background-image: url("../Assets/nav-cover.jpg");
