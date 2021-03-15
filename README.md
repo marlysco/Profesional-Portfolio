@@ -1,7 +1,7 @@
 # Professional-Portfolio
 Responsive Professional Portfolio
 
-This project goal was to create a responsie professional portfolio using advanced CSS.
+This project goal was to create a responsive professional portfolio using advanced CSS.
 
 - Landing page: desktop screen:
 ![image](https://user-images.githubusercontent.com/44534982/111096007-fd461200-8514-11eb-9683-ed5cfe6d1970.png)
