@@ -1,5 +1,6 @@
 # Professional-Portfolio
 Responsive Professional Portfolio
+
 This project goal was to create a responsie professional portfolio using advanced CSS.
 
 - Landing page: desktop screen:
@@ -22,4 +23,5 @@ Use the links to access the LinkedIn and GiyHub profiles, and the article
 ![image](https://user-images.githubusercontent.com/44534982/111096858-dab4f880-8516-11eb-892c-fdfa69db6876.png)
 
 You can access to this webpage using this link: https://marlysco.github.io/Proffesional-Portfolio/.
+
 Feel free to test the link and share feedback.
